@@ -14,15 +14,15 @@ sh 'terraform init'
 }
 }
   
-stage('Terraform plan') {
+stage('terraform plan') {
 steps {
-sh 'Terraform plan'
+sh 'terraform plan'
 }
 }
   
-stage('Terraform apply') {
+stage('terraform apply') {
 steps {
-sh 'Terraform apply -auto approve' 
+sh 'terraform apply -auto approve' 
 }
 }
 }
