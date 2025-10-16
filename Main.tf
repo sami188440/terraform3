@@ -1,4 +1,4 @@
-resources "local_file" "Hi sami" {
+resource "local_file" "Hi_sami" {
 filename = var.filename
 content = var.content
 }
