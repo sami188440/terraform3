@@ -8,9 +8,9 @@ git branch: 'main' , url: 'https://github.com/sami188440/terraform3.git'
 }
 }
   
-stage('Terraform Init') {
+stage('terraform Init') {
 steps {
-sh 'Terraform init'
+sh 'terraform init'
 }
 }
   
