@@ -18,7 +18,7 @@ sh 'Terraform plan'
 }
 stage('Terraform apply') {
 steps {
-sh 'Terraform apply' -auto approve' 
+sh 'Terraform apply -auto approve' 
 }
 }
 }
