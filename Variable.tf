@@ -1,8 +1,8 @@
-resources "filename" {
+resource "file_name" {
 description = need to create file
 type = string
-default = Testing.txt
+default = "Testing.txt"
 }
 variable "content" {
-default = How r u sami
+default = "How r u sami"
 }
